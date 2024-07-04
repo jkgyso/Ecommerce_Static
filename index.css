@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem; 
+    color: #555;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000; 
+}
+
+.navbar-toggler {
+    border-color: #ddd; 
+}
+
+.navbar-toggler-icon {
+    background-color: #333; 
+}
+
+.hero-title, .hero-subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+}
+
+.hero-image {
+    background: rgba(0,0,0,0.5);
+    height: 100vh;
+}
+
+.hero-button {
+    transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.why-shop-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #333; 
+}
+
+.animated-list-item h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #555; 
+}
+
+.custom-card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+}
